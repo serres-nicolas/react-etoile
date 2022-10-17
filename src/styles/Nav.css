@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+.menu {
+  font-size: 20px;
+  font-family: "Poppins";
+  background-color: violet;
+  width: 100%;
+  position: absolute;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.activeLink {
+  font-weight: bold;
+  color: #07c5fa;
+}

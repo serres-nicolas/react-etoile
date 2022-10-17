@@ -10,13 +10,13 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <>
+      <Nav />
       <body>
-        <Nav />
         <Routes>
-          <Route path="/Leclub" element={<Activite />} />
-          <Route path="/Activite" element={<Leclub />} />
-          <Route path="/Resultat" element={<Leclub />} />
-          <Route path="/Contact" element={<Leclub />} />
+          <Route path="/Leclub" element={<Leclub />} />
+          <Route path="/Activite" element={<Activite />} />
+          <Route path="/Resultat" element={<Resultat />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </body>
     </>

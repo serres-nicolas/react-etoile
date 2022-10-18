@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
 .menu {
-  font-size: 20px;
+  font-size: calc(15px + 0.390625vw);
   font-family: "Poppins";
   width: 100%;
   background: radial-gradient(
@@ -14,10 +14,9 @@
 
 ul {
   display: flex;
-  flex-direction: row;
   list-style: none;
   justify-content: space-between;
-  padding: 30px 70px;
+  padding: calc(-5px + 1.5625vw);
 }
 
 a {

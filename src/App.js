@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Activite from "./pages/Activite";
 import Resultat from "./pages/Resultat";
 import Contact from "./pages/Contact";
+import Accueil from "./pages/Accueil";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Nav />
       <body>
         <Routes>
+          <Route path="/" element={<Accueil />} />
           <Route path="/Leclub" element={<Leclub />} />
           <Route path="/Activite" element={<Activite />} />
           <Route path="/Resultat" element={<Resultat />} />

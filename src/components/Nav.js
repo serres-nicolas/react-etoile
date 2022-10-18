@@ -6,6 +6,15 @@ export default function Nav() {
       <ul>
         <li>
           <NavLink
+            to="/"
+            className={({ isActive }) => (isActive ? "activeLink" : undefined)}
+            end
+          >
+            Accueil
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
             to="/Leclub"
             className={({ isActive }) => (isActive ? "activeLink" : undefined)}
           >

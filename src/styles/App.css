@@ -1,6 +1,7 @@
 @import "./Nav.css";
 @import "./index.css";
 @import "./Leclub.css";
+@import "./Accueil.css";
 
 * {
   box-sizing: content-box;

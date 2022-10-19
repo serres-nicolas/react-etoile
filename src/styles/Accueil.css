@@ -44,7 +44,7 @@ div > .text > .textpad {
   background: #689689;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.45),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding: 15px;
+  padding: calc(15px + 1.5625vw);
 }
 .boxdl:hover {
   display: flex;
@@ -72,23 +72,23 @@ div > .text > .textpad {
   justify-content: center;
 }
 .logo_svg {
-  margin-top: -570px;
-  margin-left: 100px;
+  margin-top: calc(-570px - 1.5625vw);
+  margin-left: calc(100px + 1.5625vw);
   width: 90%;
 }
 
 .filtersvg1 {
-  margin-top: -320px;
-  margin-left: -350px;
+  margin-top: calc(-260px - 1.5625vw);
+  margin-left: calc(-350px - 1.5625vw);
 }
 .filtersvg2 {
-  margin-top: -165px;
+  margin-top: calc(-160px - 1.5625vw);
   width: 50%;
 }
 
 .filtersvg3 {
-  margin-right: -450px;
-  margin-top: -100px;
+  margin-right: calc(-360px - 1.5625vw);
+  margin-top: calc(-100px - 1.5625vw);
   width: 100%;
 }
 

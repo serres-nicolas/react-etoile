@@ -3,7 +3,8 @@
 
 .Flex_page {
   display: flex;
-  background: #27213a;
+  background-color: #27213a;
+  margin-top: 77px;
 }
 .home {
   display: flex;
@@ -13,7 +14,7 @@
 .title {
   font-family: "Oswald", sans-serif;
   letter-spacing: 0.3em;
-  padding-top: calc(10px + 1.5625vw);
+  padding-top: calc(5px + 1.5625vw);
   margin: calc(40px + 1.5625vw);
   margin-bottom: 0;
 }
@@ -28,6 +29,7 @@ h1 {
   font-family: "Open Sans";
   margin: calc(40px + 1.5625vw);
   letter-spacing: 0.1em;
+  width: 150%;
 }
 div > .text > .textpad {
   margin-bottom: calc(35px + 1.5625vw);
@@ -36,13 +38,13 @@ div > .text > .textpad {
   display: flex;
   justify-content: center;
   border-radius: 20px;
-  padding: 0 calc(10px + 1.5625vw);
-  margin-left: calc(80px + 1.5625vw);
+  margin-left: calc(120px + 1.5625vw);
   margin-top: calc(0px + 1.5625vw);
-  width: 14%;
+  width: 23%;
   background: #689689;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.45),
     inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 15px;
 }
 .boxdl:hover {
   display: flex;
@@ -58,33 +60,42 @@ div > .text > .textpad {
   color: #aa5042;
   text-align: center;
   text-decoration: none;
-  padding: 0.8em 2em;
   letter-spacing: 0.1em;
+  margin-left: 10px;
+  margin-top: 5px;
 }
-.filter {
-  background: rgba(170, 80, 66, 0.4);
-  filter: blur(100px);
-  width: 30%;
-  padding-left: 20px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-right: 80px;
-}
-.filter2 {
-  background: rgba(138, 151, 147, 0.5);
-  filter: blur(100px);
-  height: 100%;
-  width: 60%;
-  margin-right: 200px;
-}
+
 .logo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  column-gap: 100px;
 }
 .logo_svg {
-  padding-left: calc(120px + 1.5625vw);
-  padding-top: calc(130px + 1.5625vw);
+  margin-top: -570px;
+  margin-left: 100px;
+  width: 90%;
+}
+
+.filtersvg1 {
+  margin-top: -320px;
+  margin-left: -350px;
+}
+.filtersvg2 {
+  margin-top: -165px;
+  width: 50%;
+}
+
+.filtersvg3 {
+  margin-right: -450px;
+  margin-top: -100px;
+  width: 100%;
+}
+
+#first {
+  z-index: 2;
+}
+
+#two {
+  z-index: 1;
 }
